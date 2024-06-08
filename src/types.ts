@@ -1,0 +1,1 @@
+export const REST_BASE_URL = "https://www.combankdigital.com/eBankingRest";

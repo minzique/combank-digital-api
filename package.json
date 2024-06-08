@@ -1,0 +1,27 @@
+{
+  "name": "combank-digital-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "start": "pnpm run build:test",
+    "build": "tsc -p .",
+    "build:test": "ts-node ./src/API.ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "axios": "^1.6.8",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.0.3",
+    "jsencrypt": "^3.3.2",
+    "node-jsencrypt": "^1.0.0",
+    "node-rsa": "^1.1.1",
+    "secure-random": "^1.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
